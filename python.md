@@ -9,12 +9,13 @@ Variables
 
 Arrays []
 =========
-* Sets multiple variables
+* Sets one or multiple values to a variable
 Example:
 ```python 
 test = [“one”, “two”, “three”] 
 ```
 * Accessing values => test[0] … returns “one”
+* Behaves like a box with things in it but those things have no name
 
 Dictionary {}
 =========
@@ -25,11 +26,12 @@ Example =>
 test = { "one" : "bike", "two" : "car"}
 ```
 * Accessing values => test[“one”]  … will return “bike”
+* Behaves like a box with things in it and those things have names
 
 Functions (def)
 =========
 * Changes a value
-* Takes arguments/parameters (can be given values/variables)
+* Takes arguments/parameters
 * Optionally returns the new value
 * Access to it depends on location it was set (scope)
 * Can be used like a variable since it returns a value
@@ -49,11 +51,12 @@ Example =>
 ```python
 test = [1,2,3,4,5]
 i=0
-While 5 > i
-      print (i)
+While 5 > i:
+      print(test[i])
    i+=1
 ```
-* Access to variables depend on scope     	
+* Access to variables depend on scope
+* while loops only run until the statement in front of it is true
 
 Classes (object oriented )
 ==========================
