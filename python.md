@@ -51,9 +51,9 @@ Example =>
 ```python
 test = [1,2,3,4,5]
 i=0
-While 5 > i:
-      print(test[i])
-   i+=1
+while 5 > i:
+  print(test[i])
+  i+=1
 ```
 * Access to variables depend on scope
 * while loops only run until the statement in front of it is true
