@@ -43,7 +43,7 @@ Loops (while, for)
 Example =>
 ```python
 test = [1,2,3,4,5]
-For i in test: 
+for i in test: 
   print(i)
 ```        
 * Creates variable “i” and sets it to each value in the “test” array on each iteration prints the value.
