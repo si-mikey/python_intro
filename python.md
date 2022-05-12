@@ -65,10 +65,23 @@ Classes (object oriented )
 * In order to access the values or function(called methods in classes)  you need to create an “instance” of the class or another name “object”. 
 Example => 
 ```python
-class test: 
-  one = “blah”
-
-myTestClass = test()
-myTestClass.one
+class Human: 
+  def __init__(self, name):
+    self.name = name
+    
+  def greet(self):
+    return f"Hello, my name is {self.name}"
+    
+ me = Human("Layla")
+ print(me.name)
+ 
 ```
-* returns “blah” and “myTestClass” is an object of “test” class
+* returns “layla” and “me” is an object of “Human” class
+```python
+print(me.greet())
+```
+* returns 'Hello, my name is Layla' 
+* the '\_\_init\_\_' method is a called the "constructor"
+* when you first instantiate the object "me" thats the function that is used to set up the object with properties
+* "name" is a property of the "me" object
+* the "greet" method can access properties in the class
