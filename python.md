@@ -35,6 +35,12 @@ Functions (def)
 * Optionally returns the new value
 * Access to it depends on location it was set (scope)
 * Can be used like a variable since it returns a value
+```python
+def talk(phrase):
+    return phrase
+
+print(talk('Hi, world'))
+```
 
 Loops (while, for)
 ==================
