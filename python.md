@@ -6,6 +6,12 @@ Variables
 * Set a value
 * Name the value
 * Access to it depends on context (location of where it was set) (scope)
+```python
+ name = "john" 
+ num = 25
+ 
+ print(name, num)
+```
 
 Arrays []
 =========
